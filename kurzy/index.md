@@ -7,14 +7,14 @@ title: Vsechny kurzy
 
 # Kurzy
 
-Vyberte si z nasi siroke nabidky kurzu
+Vyberte si z naší široké nabídky kurzů
 
-- [Amazon Web Services (AWS)](aws.html) - spolehlivy cloud
-- [Cloudflare](cloudflare.html) - chrani Vas web a mnoho dalsiho
-- [Git](git.html) - univerzalni verzovaci system
+- [Amazon Web Services (AWS)](aws.html) - spolehlivý cloud
+- [Cloudflare](cloudflare.html) - chrání Váš web a mnoho dalšího
+- [Git](git.html) - univerzální verzovací system
 - [Continuest Integration](continues-integration.html)
-- [Docker](docker.html) - Linux kontainery
+- [Docker](docker.html) - Linux kontejnery
 - [KVM/QEMU Virtualizace](kvm-virtualizace.html)
 
-Mate specialni prani nebo dotaz? Piste na <info@sedu.cz>
+Máte speciální přání či dotaz? Pište na <info@sedu.cz>
 

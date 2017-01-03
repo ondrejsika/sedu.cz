@@ -15,11 +15,11 @@ home
 
 # SEDU
 
-SEDU je projekt, ktery si dal za cil zjednodusit softwarovym firmam kazdodeni cinosti a dat jim vice casu aby se zamerili na jadro jejich businessu.
+SEDU je projekt, který si dal za cíl zjednodušit softwarovým firmám každodenní činnosti a dát jim více času aby se mohli zaměřit na jádro jejich businessu.
 
-Verime ze technologie a metodiky, ktere nabizime Vam pomuzou drzet focus na jadru vaseho podnikani a vypustit nej zbytecne opakujici se cinnost.
+Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet focus v jádru Vašeho podnikání a vypustit z něj zbytečne opakující se činnost.
 
-## Aktualni kurzy
+## Aktualní kurzy
 
 <div class="background" style="padding: 10px">
 
@@ -32,10 +32,10 @@ Verime ze technologie a metodiky, ktere nabizime Vam pomuzou drzet focus na jadr
 
 </div>
 
-Vsechny kuzry [zde](/kurzy)
+Všechny kuzry [zde](/kurzy)
 
 ## Kontakt
 
-Preferujeme komunikaci emailem na <info@sedu.cz>. Vice kontaktu [zde](/kontakt.html).
+Preferuji e-mailovou korespondenci na <info@sedu.cz>. Více kontaktu [zde](/kontakt.html).
 
 

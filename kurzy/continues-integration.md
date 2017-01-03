@@ -5,5 +5,5 @@ project_name: CI
 price: 2000
 ---
 
-Tento kurz vznikl drive nez tento portal a je soucasti pokrocileho skoleni Gitu. Zde jej zatim pripravujeme. Podivejte se prosim na <https://skoleni-git.cz>.
+Tento kurz vznikl dříve než tento portál a je součástí pokročilého školení Gitu. Zde jej zatím připravujeme. Podívejte se prosím na <https://skoleni-git.cz>.
 
