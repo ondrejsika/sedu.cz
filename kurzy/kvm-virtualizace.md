@@ -38,9 +38,9 @@ Pro systémové administrátory, kteří chtějí provozovat VPS na vlastním HW
 
 ## Jak školení probíha
 
-Školení je formou workshopu, každy si vše prakticky vyzkouší. Nainstaluje si KVM stack, vytvoři si VPS a vše nakonfiguruje.
+Školení je formou workshopu, každý si vše prakticky vyzkouší. Nainstaluje si KVM stack, vytvoři si VPS a vše nakonfiguruje.
 
-Školení probíha u mě v kanceláři, případně ve školící místnosti. Firemni školení je  samozřejmě možné i ve Vaší firmě.
+Školení probíha u mě v kanceláři, případně ve školící místnosti. Firemní školení je  samozřejmě možné i ve Vaší firmě.
 
 Po účasti školení dostane každý účastník veřejně auditovatelný certifikat o účasti.
 

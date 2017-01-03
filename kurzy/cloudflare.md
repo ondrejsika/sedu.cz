@@ -5,7 +5,7 @@ project_name: Cloudflare
 price: 4000
 ---
 
-Chcete udělat něco pro své zákazníky a zároveň si zjednodušit život? Pak jsou služby [Cloudflare](https://cloudflare.com) práve pro Vás. Zajišťuji DDOS ochranu, CDN, HTTPS, DNS a mnoho dalšího. Zároveň můžete vše ovládat pomocí API a větsině firem bude stačit jejich FREE plan.
+Chcete udělat něco pro své zákazníky a zároveň si zjednodušit život? Pak jsou služby [Cloudflare](https://cloudflare.com) práve pro Vás. Zajišťuji DDOS ochranu, CDN, HTTPS, DNS a mnoho dalšího. Zároveň můžete vše ovládat pomocí API a většině firem bude stačit jejich FREE plan.
 
 
 ## Pro koho je kurz zaměřen
@@ -22,7 +22,7 @@ Kurz je zaměřen pro všechny vývojáře, kterým není lhostejná kvalita a d
 - Ukážeme si práci s API a s terminálovým klientem
 
 
-## Jak skolení probíhá
+## Jak školení probíhá
 
 Školení probíha formou workshopu. Každý účastník si prakticky osahá danou technologii, aby si odnesl co nejvíce praktických dovedností.
 
