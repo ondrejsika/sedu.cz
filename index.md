@@ -36,6 +36,6 @@ Všechny kuzry [zde](/kurzy)
 
 ## Kontakt
 
-Preferujeme e-mailovou korespondenci na <info@sedu.cz>. Více kontaktu [zde](/kontakt.html).
+Preferuji e-mailovou korespondenci na <info@sedu.cz>. Více kontaktu [zde](/kontakt.html).
 
 
