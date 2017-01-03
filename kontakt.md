@@ -7,12 +7,12 @@ title: Kontakt
 
 # Kontakt
 
-Preferuji komunikaci emailem na <info@sedu.cz>
+Preferuji e-mailovou komunikaci  na <info@sedu.cz>
 
 
 ### Ondrej Sika
 
-CEO, skolitel a konzultant
+CEO, školitel a konzultant
 
 - +420 773 452 376
 - <ondrej@sedu.cz>
