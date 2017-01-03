@@ -5,43 +5,43 @@ project_name: KVM Virtualizace
 price: 5000
 ---
 
-Virtualizace nam umozni beh vice virtualnich stroju (VPS) na jednom fyzickem stroji. Pokud potrebujete hodne serveru, vyplati se vam misto kupovani hromady VPS virtualizovat sami. Na tomto skoleni se dozvite ze to neni tezke a prakticky navod jak.
+Virtualizace nám umožní běh více virtuálních strojů (VPS) na jednom fyzickém stroji. Pokud potřebujete hodně serveru, vyplatí se Vám místo kupovaní hromady VPS, když si je virtualizujete sami. Na tomto školení se dozvíte, že virtualizace VPS není vůbec obtížná a poskytneme Vám praktický návod jak na to.
 
-## Pro koho je kurz zameren
+## Pro koho je kurz zaměřen
 
-Pro systemove administratory, kteri chteji provozovat VPS na vlastnim HW nebo na projajatych fyzickych strojich.
+Pro systémové administrátory, kteří chtějí provozovat VPS na vlastním HW nebo na pronajatých fyzických strojích.
 
-## Vyhodu vlastni virtualizace
+## Výhody vlastní virtualizace
 
-- Levnejsi nez poskytovane VPS
-- Vetsi kontrola nad VPS
-- Vetsi bezpecnost, moznost kryptovanych disku
+- Levnější než poskytované VPS
+- Větší kontrola nad VPS
+- Větší bezpečnost, možnost kryptovaných disků
 
 
-## Co se na kurzu naucite
+## Co se na kurzu naučíte
 
 - Co je to virtualizace
-- Vyhody a nebyhody virtualizace
-- Rozdily mezi virtualizaci a kontejnery (Docker)
-- Nastaveni hypervisoru (stroj kde bezi VPS)
-- Ovladani hypervisoru a sprava VPS
+- Výhody a nevýhody virtualizace
+- Rozdíly mezi virtualizací a kontejnery (Docker)
+- Nastavení hypervisoru (stroj, kde beží VPS)
+- Ovládání hypervisoru a správa VPS
 - Networking v hypervisoru
-- Zalohovani VPS
-- Moznosti zabezpeceni VPS
+- Zálohování VPS
+- Možnosti zabezpečení VPS
 
-## Technologicky stack
+## Technologický stack
 
 - Debian
 - KVM/Quemu
 - VirtManager
 
 
-## Jak skoleni probiha
+## Jak školení probíha
 
-Skoleni je formou workshopu, kazdy si vse prakticky vyzkousi. Nainstaluje si KVM stack, vytvori si VPS a vse nakonfiguruje.
+Školení je formou workshopu, každy si vše prakticky vyzkouší. Nainstaluje si KVM stack, vytvoři si VPS a vše nakonfiguruje.
 
-Skoleni probiha u me v kancelari, pripadne ve skolici mistnosti. Firemni skoleni samozdrejme u Vas ve firme.
+Školení probíha u mě v kanceláři, případně ve školící místnosti. Firemni školení je  samozřejmě možné i ve Vaší firmě.
 
-Po ucasti skoleni dostane kazdy ucastnik verejne auditovatelny certifikat o ucasti.
+Po účasti školení dostane každý účastník veřejně auditovatelný certifikat o účasti.
 
 
