@@ -5,24 +5,24 @@ project_name: Cloudflare
 price: 4000
 ---
 
-Chcete udelat neco pro zakazniky a zaroven si zjednodusit zivot. Pak jsou sluzby [Cloudflare](https://cloudflare.com) prave pro Vas. Zajistuji DDOS ochranu, CDN, HTTPS, DNS a mnoho dalsiho. Zaroven muzete vse ovladat prez API a vetsine firem staci jejich FREE plan.
+Chcete udělat něco pro své zákazníky a zároveň si zjednodušit život? Pak jsou služby [Cloudflare](https://cloudflare.com) práve pro Vás. Zajišťuji DDOS ochranu, CDN, HTTPS, DNS a mnoho dalšího. Zároveň můžete vše ovládat pomocí API a větsině firem bude stačit jejich FREE plan.
 
 
-## Pro koho je kurz zameren
+## Pro koho je kurz zaměřen
 
-Kurz je zameren pro vsechny vyvojare, kterym neni lhostejna kvalita a dostupnost poskytovanych sluzeb. Kurz vyzaduje zakladni znalosti vyvoje a nasazovani webu a webovych aplikaci.
-
-
-## Co se na kurzu naucite
-
-- Co je Cloudflare a co poskytuje za sluzby
-- Pridani vaseho webu do Cloudflare
-- Povime si proc je vhodne pouzivat DDOS ochanu, CDN a HTTPS
-- Kompletni nastaveni vaseho webu s CDN, HTTPS a DDOS ochranou
-- Ukazeme si praci s API a s terminalovym klientem
+Kurz je zaměřen pro všechny vývojáře, kterým není lhostejná kvalita a dostupnost poskytovaných služeb. Kurz vyžaduje základní znalosti vývoje a nasazování webu a webových aplikací.
 
 
-## Jak skoleni probiha
+## Co se na kurzu naučíte
 
-Skoleni probiha formou workshopu, kazdy ucastnik si prakticky osaha danou technologii aby si odnesl nejvice zkusenosti.
+- Co je Cloudflare a jaké poskytuje služby
+- Přidání Vašeho webu do Cloudflare
+- Povíme si, proč je vhodné používat DDOS ochanu, CDN a HTTPS
+- Kompletní nastavení Vašeho webu s CDN, HTTPS a DDOS ochranou
+- Ukážeme si práci s API a s terminálovým klientem
+
+
+## Jak skolení probíhá
+
+Školení probíha formou workshopu. Každý účastník si prakticky osahá danou technologii, aby si odnesl co nejvíce praktických dovedností.
 
