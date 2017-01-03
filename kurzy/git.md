@@ -5,5 +5,5 @@ project_name: Git
 price: 2000
 ---
 
-Tento kurz vznikl drive nez tento portal. Zde jej zatim pripravujeme. Podivejte se prosim na <https://skoleni-git.cz>.
+Tento kurz vznikl dříve než tento portál. Zde jej zatím připravujeme. Podívejte se prosím na <https://skoleni-git.cz>.
 
