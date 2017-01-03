@@ -4,5 +4,5 @@ title: Školení AWS
 project_name: AWS
 ---
 
-Tento kurz teprve pripravujeme. Pokud o nej mate zajem, napiste na <info@sedu.cz> a my Vam vyjdeme vstric.
+Tento kurz teprve připravujeme. Pokud o něj máte zájem, pište na <info@sedu.cz> a my Vám rádi vyjdeme vstříc.
 
