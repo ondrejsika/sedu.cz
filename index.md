@@ -34,6 +34,12 @@ Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet f
 
 Všechny kuzry [zde](/kurzy)
 
+## Aktuálně vypsané termíny
+
+- [__Workshop Gitu pro začátečníky__, 22. 2. 2017](https://sedu.cz/terminy/2017-02-22-workshop-gitu-pro-zacatecniky.html)
+
+Všechny termíny [zde](/terminy)
+
 ## Kontakt
 
 Preferuji e-mailovou korespondenci na <info@sedu.cz>. Více kontaktů [zde](/kontakt.html).
