@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="/ondrejsika-cayman/css/bootstrap.css">
   </head>
   <body>
-    <section class="page-header">
+      {% if page.no_header %}{% assign no_header = page.no_header %}{% else %}{% assign no_header = layout.no_header %}{% endif %}
+      {% if no_header %}
+      {% else %}
+      <section class="page-header">
       <h1 class="project-name">{{ page.project_name | default: layout.project_name }}</h1>
       <h2 class="project-tagline">{{ page.project_tagline | default: layout.project_tagline }}</h2>
       {% if page.buttons %}{% assign buttons = page.buttons %}{% else %}{% assign buttons = layout.buttons %}{% endif %}
@@ -19,6 +22,7 @@
         <a href="{{ button.link }}" class="btn">{{ button.name }}</a>
       {% endfor %}
     </section>
+      {% endif %}
 
     <section class="main-content">
 
