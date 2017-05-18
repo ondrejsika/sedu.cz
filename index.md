@@ -36,8 +36,7 @@ Všechny kuzry [zde](/kurzy)
 
 ## Aktuálně vypsané termíny
 
-- [__Workshop Gitu pro začátečníky__, 22. 2. 2017](/terminy/2017-02-22-workshop-gitu-pro-zacatecniky.html)
-- [__Workshop Dockeru pro začátečníky__, 15. 3. 2017](/terminy/2017-03-15-workshop-dockeru-pro-zacatecniky.html)
+- [__Workshop Gitu pro začátečníky__, 21. 6. 2017](/terminy/2017-06-21-workshop-gitu-pro-zacatecniky.html)
 
 Všechny termíny [zde](/terminy)
 
