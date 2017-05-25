@@ -17,9 +17,10 @@ CEO, školitel a konzultant
 - +420 773 452 376
 - <ondrej@sedu.cz>
 
-### Jan Pavel
 
-Asistent
+### Dominika Papp
 
-- <jan@sedu.cz>
+Asistentka
+
+- <dominika@sedu.cz>
 
