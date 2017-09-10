@@ -3,10 +3,10 @@ future: true
 collections:
   course:
     output: true
-    permalink: /kurzy/:slug
+    permalink: /kurzy/:slug.html
   event:
     output: true
-    permalink: /terminy/:slug
+    permalink: /terminy/:slug.html
 
 defaults:
   - scope:

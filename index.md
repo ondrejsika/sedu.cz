@@ -36,12 +36,12 @@ Všechny termíny [zde](/terminy)
 
 <div class="background" style="padding: 10px">
 
-<!-- <a href="/kurzy/aws" class="btn" style="margin: 10px">Amazon Web Services (AWS)</a> -->
-<a href="/kurzy/cloudflare" class="btn" style="margin: 10px">Cloudflare</a>
-<a href="/kurzy/git" class="btn" style="margin: 10px">Git</a>
-<a href="/kurzy/continues-integration" class="btn" style="margin: 10px">Continues Integration</a>
-<a href="/kurzy/docker" class="btn" style="margin: 10px">Docker</a>
-<a href="/kurzy/kvm-virtualizace" class="btn" style="margin: 10px">KVM Virtualizace</a>
+<!-- <a href="/kurzy/aws.html" class="btn" style="margin: 10px">Amazon Web Services (AWS)</a> -->
+<a href="/kurzy/cloudflare.html" class="btn" style="margin: 10px">Cloudflare</a>
+<a href="/kurzy/git.html" class="btn" style="margin: 10px">Git</a>
+<a href="/kurzy/continues-integration.html" class="btn" style="margin: 10px">Continues Integration</a>
+<a href="/kurzy/docker.html" class="btn" style="margin: 10px">Docker</a>
+<a href="/kurzy/kvm-virtualizace.html" class="btn" style="margin: 10px">KVM Virtualizace</a>
 
 </div>
 
