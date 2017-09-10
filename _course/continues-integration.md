@@ -1,6 +1,7 @@
 ---
 layout: course
 title: Školení Continues Integration
+slug: continues-integration
 project_name: CI
 price: 2000
 ---

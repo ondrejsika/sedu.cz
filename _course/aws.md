@@ -1,6 +1,7 @@
 ---
 layout: course
 title: Školení AWS
+slug: aws
 project_name: AWS
 ---
 

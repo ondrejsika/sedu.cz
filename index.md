@@ -21,10 +21,10 @@ Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet f
 
 ## Aktuálně vypsané termíny
 
-- __Git__ (pro začátečníky a mírně pokročilé) - 15. 11. 2017 ([více informací](/kurzy/git.html))
-- __Gitlab a Continues Integration__ (pro mírně a středně pokročilé) - 16. 11. 2017 ([více informací](/kurzy/continues-integration.html))
-- __Docker__ (pro začátečníky a mírně pokročilé) - 22. - 23. 11. 2017 ([více informací](/kurzy/docker.html))
-- __Cloudflare__ (pro začátečníky a mírně pokročilé) - 29. 11. 2017 ([více informací](/kurzy/cloudflare.html))
+- __Git__ (pro začátečníky a mírně pokročilé) - 15. 11. 2017 ([více informací](/kurzy/git))
+- __Gitlab a Continues Integration__ (pro mírně a středně pokročilé) - 16. 11. 2017 ([více informací](/kurzy/continues-integration))
+- __Docker__ (pro začátečníky a mírně pokročilé) - 22. - 23. 11. 2017 ([více informací](/kurzy/docker))
+- __Cloudflare__ (pro začátečníky a mírně pokročilé) - 29. 11. 2017 ([více informací](/kurzy/cloudflare))
 
 Na kurz se [registrujte zde](/registrace.html) nebo napiste na <info@sedu.cz>
 
@@ -38,12 +38,12 @@ Všechny termíny [zde](/terminy)
 
 <div class="background" style="padding: 10px">
 
-<!-- <a href="/kurzy/aws.html" class="btn" style="margin: 10px">Amazon Web Services (AWS)</a> -->
-<a href="/kurzy/cloudflare.html" class="btn" style="margin: 10px">Cloudflare</a>
-<a href="/kurzy/git.html" class="btn" style="margin: 10px">Git</a>
-<a href="/kurzy/continues-integration.html" class="btn" style="margin: 10px">Continues Integration</a>
-<a href="/kurzy/docker.html" class="btn" style="margin: 10px">Docker</a>
-<a href="/kurzy/kvm-virtualizace.html" class="btn" style="margin: 10px">KVM Virtualizace</a>
+<!-- <a href="/kurzy/aws" class="btn" style="margin: 10px">Amazon Web Services (AWS)</a> -->
+<a href="/kurzy/cloudflare" class="btn" style="margin: 10px">Cloudflare</a>
+<a href="/kurzy/git" class="btn" style="margin: 10px">Git</a>
+<a href="/kurzy/continues-integration" class="btn" style="margin: 10px">Continues Integration</a>
+<a href="/kurzy/docker" class="btn" style="margin: 10px">Docker</a>
+<a href="/kurzy/kvm-virtualizace" class="btn" style="margin: 10px">KVM Virtualizace</a>
 
 </div>
 

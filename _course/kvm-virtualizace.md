@@ -1,6 +1,7 @@
 ---
 layout: course
 title: Školení KVM Virtualizace
+slug: kvm-virtualizace
 project_name: KVM Virtualizace
 price: 5000
 ---

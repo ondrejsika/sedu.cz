@@ -1,0 +1,11 @@
+collections:
+  course:
+    output: true
+    permalink: /kurzy/:slug
+
+defaults:
+  - scope:
+      path: ""
+      type: "course"
+    values:
+      layout: "course"

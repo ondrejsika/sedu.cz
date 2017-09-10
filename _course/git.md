@@ -1,6 +1,7 @@
 ---
 layout: course
 title: Školení Gitu
+slug: git
 project_name: Git
 price: 2500
 ---

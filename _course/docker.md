@@ -1,6 +1,7 @@
 ---
 layout: course
 title: Školení Docker
+slug: docker
 project_name: Docker
 price: 4000
 ---

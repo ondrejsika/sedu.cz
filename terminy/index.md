@@ -7,10 +7,10 @@ title: Termíny
 
 # Termíny kurzů
 
-- __Git__ (pro začátečníky a mírně pokročilé) - 15. 11. 2017 ([více informací](/kurzy/git.html))
-- __Gitlab a Continues Integration__ (pro mírně a středně pokročilé) - 16. 11. 2017 ([více informací](/kurzy/continues-integration.html))
-- __Docker__ (pro začátečníky a mírně pokročilé) - 22. - 23. 11. 2017 ([více informací](/kurzy/docker.html))
-- __Cloudflare__ (pro začátečníky a mírně pokročilé) - 29. 11. 2017 ([více informací](/kurzy/cloudflare.html))
+- __Git__ (pro začátečníky a mírně pokročilé) - 15. 11. 2017 ([více informací](/kurzy/git))
+- __Gitlab a Continues Integration__ (pro mírně a středně pokročilé) - 16. 11. 2017 ([více informací](/kurzy/continues-integration))
+- __Docker__ (pro začátečníky a mírně pokročilé) - 22. - 23. 11. 2017 ([více informací](/kurzy/docker))
+- __Cloudflare__ (pro začátečníky a mírně pokročilé) - 29. 11. 2017 ([více informací](/kurzy/cloudflare))
 
 Na kurz se [registrujte zde](/registrace.html) nebo napiste na <info@sedu.cz>
 
