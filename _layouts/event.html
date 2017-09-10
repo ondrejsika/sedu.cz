@@ -3,9 +3,9 @@ layout: default
 project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 ---
 
-<p><a href="/">home</a> / <a href="/terminy">termíny</a> / {{page.title}}</p>
+<p><a href="/">home</a> / <a href="/terminy">termíny</a> / {{page.title}}, {{ page.date | date: "%d. %m. %Y" }}, {{page.city}}</p>
 
-<h1>{{ page.title}}</h1>
+<h1>Školení {{ page.title}}, {{ page.date | date: "%d. %m. %Y" }}, {{page.city}}</h1>
 
 {{ content }}
 
@@ -18,7 +18,7 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 
 <h3>Datum a čas</h3>
 
-{{ page.time }}, {{ page.date }}
+{{ page.time }}, {{ page.date | date: "%d. %m. %Y" }}
 
 
 <h3>Cena</h3>

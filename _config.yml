@@ -1,7 +1,12 @@
+future: true
+
 collections:
   course:
     output: true
     permalink: /kurzy/:slug
+  event:
+    output: true
+    permalink: /terminy/:slug
 
 defaults:
   - scope:
@@ -9,3 +14,8 @@ defaults:
       type: "course"
     values:
       layout: "course"
+  - scope:
+      path: ""
+      type: "event"
+    values:
+      layout: "event"
