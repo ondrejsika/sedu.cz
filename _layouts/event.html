@@ -9,7 +9,11 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 
 {{ content }}
 
-
+{% for course in site.course %}
+    {% if course.course == page.course %}
+        {{ course.content }}
+    {% endif %}
+{% endfor %}
 
 <h3>Místo konání</h3>
 
