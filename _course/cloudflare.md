@@ -2,6 +2,7 @@
 layout: course
 title: Školení Cloudflare
 slug: cloudflare
+course: cloudflare
 project_name: Cloudflare
 price: 4000
 ---

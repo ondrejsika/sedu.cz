@@ -2,16 +2,21 @@
 layout: course
 title: Školení Gitu
 slug: git
+course: git
 project_name: Git
 price: 3000
 ---
 
-Tento kurz vznikl dříve než tento portál. Zde jej zatím připravujeme. Podívejte se prosím na <https://skoleni-git.cz>.
+Tento kurz je mým prvním a nejžádanějším kurzem, který školím. Na workshopu si vše prakticky vyzkoušíme a naučíme se používat Git při každodenní práci. Ukážeme si příklady z praxe a zaměříme se na vaše konkrétní problémy a potřeby.
 
 
-## Aktuálně vypsané termíny
+## Náplň kurzu
 
-{% for event in site.event reversed %}
-{% if event.is_actual and event.course == 'git' %}- [__{{event.title}}__]({{event.url}}) ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}{% endif %}{% endfor %}
+- Úvod do verzování
+- Instalace a konfigurace Gitu
+- Vytváření komitů, práce s historií
+- Práce ve větvích
+- Práce se vzdálenými repozitáři
+- Spolupráce v týmu
 
 

@@ -2,9 +2,21 @@
 layout: course
 title: Školení Continues Integration
 slug: continues-integration
-project_name: CI
-price: 2000
+course: continues-integration
+project_name: Gitlab & CI
+price: 3500
 ---
 
-Tento kurz vznikl dříve než tento portál a je součástí pokročilého školení Gitu. Zde jej zatím připravujeme. Podívejte se prosím na <https://skoleni-git.cz>.
+- Co je to Gitlab
+- Instalace a konfigurace
+- Administrace Gitlabu
+- Práce s repozitářem
+- Issues
+- Docker registy
+- Pages
+- Snippets
+- Gitlab CI
+- Co je to CI
+- .gitlab-ci.yml
+- CI pipelines
 

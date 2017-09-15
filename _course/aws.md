@@ -2,6 +2,7 @@
 layout: course
 title: Školení AWS
 slug: aws
+course: aws
 project_name: AWS
 ---
 

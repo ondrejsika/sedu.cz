@@ -3,8 +3,21 @@ layout: course
 title: Školení Docker
 slug: docker
 project_name: Docker
-price: 4000
+price: 8000
+course: docker
 ---
 
-Tento kurz vznikl dříve nez tento portál. Zde jen zatím připravujeme. Podívejte se prosím na <https://skoleni-docker.cz>
+## Co Vás naučím
+
+- Co je Docker, jeho vlastnosti, výhody a nevýhody
+- Jak Docker nainstalovat a základní pojmy
+- Docker registry a spouštění kontajneru
+- Stavení vlastních obrazů
+- Ukážu jak spravovat multikontajnerove aplikace v Docker Compose
+- Docker Machine - nástroj na management Docker hostů
+- Docker Swarm - cluster pro Docker aplikace
+- Deployment aplikaci do Swarmu
+- Nastavit Docker pro produkční používání
+- Monitoring a správu kontejnerů
+- Základy využití v CI (Continues Itegration)
 
