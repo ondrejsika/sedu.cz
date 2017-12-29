@@ -4,7 +4,7 @@ title: Školení Continues Integration
 slug: continues-integration
 course: continues-integration
 project_name: Gitlab & CI
-price: 3500
+price: 4000
 ---
 
 - Co je to Gitlab
