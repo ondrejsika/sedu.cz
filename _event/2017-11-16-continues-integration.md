@@ -1,7 +1,7 @@
 ---
 layout: event
 course: continues-integration
-is_actual: true
+is_actual: false
 for: pro mírně a středně pokročilé
 title: Gitlab a Continues Integration
 slug: gitlab-a-continues-integration-praha-16-11-2017

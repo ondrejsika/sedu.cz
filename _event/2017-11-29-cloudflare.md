@@ -1,7 +1,7 @@
 ---
 layout: event
 course: cloudflare
-is_actual: true
+is_actual: false
 for: pro začátečníky a mírně pokročilé
 title: Cloudflare
 slug: clodflare-praha-29-11-2017
