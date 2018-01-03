@@ -19,6 +19,18 @@ SEDU je projekt, který si dal za cíl zjednodušit softwarovým firmám každod
 
 Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet focus v jádru Vašeho podnikání a vypustit z něj zbytečně opakující se činnost.
 
+## Klienti
+
+
+<div class="row">
+{% for reference in site.reference %}{% if reference.on_clients %}
+<div class="col-xs-2 align-middle" style="vertical-align:middle">
+<img src="{{reference.image}}" style="vertical-align:middle">
+</div>
+{% endif %}{% endfor %}
+</div>
+
+
 ## Aktuálně vypsané termíny
 
 {% for event in site.event %}{% if event.is_actual %}- [__{{event.title}}__]({{event.url}}) ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}
