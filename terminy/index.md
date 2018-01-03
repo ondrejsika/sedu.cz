@@ -7,8 +7,8 @@ title: Termíny
 
 # Termíny kurzů
 
-{% for event in site.event reversed %}
-{% if event.is_actual %}- [__{{event.title}}__]({{event.url}}) ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}{% endif %}{% endfor %}
+{% for event in site.event reversed %}{% if event.is_actual %}- [__{{event.title}}__]({{event.url}}) ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}
+{% endif %}{% endfor %}
 
 Na kurz se [registrujte zde](/registrace.html) nebo napiste na <info@sedu.cz>
 
