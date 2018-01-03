@@ -5,6 +5,14 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 
 <p><a href="/">home</a> / <a href="/terminy">termíny</a> / {{page.title}}, {{ page.date | date: "%d. %m. %Y" }}, {{page.city}}</p>
 
+{% if page.is_actual %}{% else %}
+<div style="margin-bottom: 20px; padding: 20px; background-color: rgba(255, 0, 0, 0.2); color: black;">
+    <b>Kurz již proběhl</b>, můžete se podívat na <a href="/kurzy/{{page.course}}.html">aktuální termíny</a>,
+    <br>případně nás kontaktujte na emailu: <a href="mailto:info@sedu.cz">info@sedu.cz</a>
+</div>
+{% endif %}
+
+
 <h1>Školení {{ page.title}}, {{ page.date | date: "%d. %m. %Y" }}, {{page.city}}</h1>
 
 {{ content }}
