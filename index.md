@@ -2,15 +2,6 @@
 layout: default
 ---
 
-<style>
-.background {
-    color: #fff;
-    text-align: center;
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957);
-}
-</style>
-
 <div style="height: 10px;"></div>
 
 # SEDU
