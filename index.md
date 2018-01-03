@@ -21,7 +21,7 @@ Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet f
 
 ## Aktuálně vypsané termíny
 
-{% for event in site.event reversed %}{% if event.is_actual %}- [__{{event.title}}__]({{event.url}}) ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}
+{% for event in site.event %}{% if event.is_actual %}- [__{{event.title}}__]({{event.url}}) ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}
 {% endif %}{% endfor %}
 
 Na kurz se [registrujte zde](/registrace.html) nebo napiste na <info@sedu.cz>
