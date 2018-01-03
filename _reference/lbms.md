@@ -5,7 +5,7 @@ image: /static/content/lbms_logo.png
 person: Vít Kolář
 position:
 company: Consultant at LBMS s.r.o.
-course: docker
+course: git
 on_homepage: false
 on_clients: true
 in_references: false
