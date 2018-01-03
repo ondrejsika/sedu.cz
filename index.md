@@ -53,3 +53,22 @@ Všechny kuzry [zde](/kurzy)
 Preferuji e-mailovou korespondenci na <info@sedu.cz>. Více kontaktů [zde](/kontakt.html).
 
 
+## Reference
+
+{% for reference in site.reference %}{% if reference.on_homepage %}
+<div class="row">
+<div class="col-xs-2" markdown="1">
+![]({{reference.image}})
+</div>
+<div class="col-xs-10" markdown="1">
+> {{ reference.text }}
+>
+> __{{ reference.person }}__
+<br />{{ reference.company }}
+
+</div>
+</div>
+{% endif %}{% endfor %}
+
+Vsechny refence naleznete na [LinkedIn](https://www.linkedin.com/in/ondrejsika/) a na portale [Na Volne Noze](https://navolnenoze.cz/prezentace/ondrej-sika/doporuceni/)
+

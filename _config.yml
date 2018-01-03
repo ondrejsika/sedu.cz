@@ -7,6 +7,9 @@ collections:
   event:
     output: true
     permalink: /terminy/:slug.html
+  reference:
+    output: true
+    permalink: /reference/:slug.html
 
 defaults:
   - scope:
@@ -19,3 +22,8 @@ defaults:
       type: "event"
     values:
       layout: "event"
+  - scope:
+      path: ""
+      type: "reference"
+    values:
+      layout: "reference"
