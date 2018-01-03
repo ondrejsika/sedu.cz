@@ -47,3 +47,28 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 
 <p>Všechna školení vedu osobně (Ondrej Sika), mám více než 7 let zkušeností s full stack developmentem a posledni 3 roky pracuji jako Software Engineer na <a href="https://slushpool.com">Slush Poolu</a>. Snažím se věci co nejvíce automatizovat, neztrácet čas ručním testováním nebo nasazováním. Chci co nejvíce času strávit přímo vývojem, což je čas který zákazník ocení a zaplatí.</p>
 
+{% assign has_references = false %}
+
+{% for reference in site.reference %}{% if reference.course == page.course and reference.person %}
+    {% assign has_references = true %}
+{% endif %}{% endfor %}
+
+{% if has_references %}
+<h3>Reference na tento kurz</h3>
+
+{% for reference in site.reference %}{% if reference.course == page.course and reference.person %}
+<div class="row">
+<div class="col-xs-2" markdown="1">
+    <img src="{{reference.image}}">
+</div>
+<div class="col-xs-10" markdown="1">
+    <blockquote>
+        {{ reference.text }}
+        <br>
+        <br><b>{{ reference.person }}</b>
+        <br>{{ reference.company }}
+    </blockquote>
+</div>
+</div>
+{% endif %}{% endfor %}
+{% endif %}
