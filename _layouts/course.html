@@ -7,7 +7,16 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 
 <h1>{{ page.title}}</h1>
 
+{% assign has_actual_event = false %}
+{% for event in site.event reversed %}
+    {% if event.is_actual and event.course contains page.course %}
+        {% assign has_actual_event = true %}
+    {% endif %}
+{% endfor %}
+
 <h2>Aktuální termíny kurzů</h2>
+
+{% if has_actual_event %}
 
 <ul>
 {% for event in site.event reversed %}
@@ -16,6 +25,14 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
     {% endif %}
 {% endfor %}
 </ul>
+
+{% else %}
+
+<p>Kurz nemá vypsnaté termíny. V případě zájmu nás kontaktujte na emailu: <a href="mailto:info@sedu.cz">info@sedu.cz</a></p>
+
+{% endif %}
+
+<hr>
 
 {{ content }}
 
