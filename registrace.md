@@ -6,7 +6,7 @@ title: Registrace na školení
 ## {{page.title}}
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<form action="https://former.sikaapp.cz/submit/5/JAAxkitdMQgEMojJIMAhazKggqbraDfL/">
+<form action="https://former.xsika.cz/submit/5/JAAxkitdMQgEMojJIMAhazKggqbraDfL/">
   <div class="form-group">
     <label>Kurz</label>
     <select name="course" class="form-control">
