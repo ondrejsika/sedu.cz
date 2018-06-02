@@ -45,7 +45,7 @@ Všechny termíny [zde](/terminy)
 <!-- <a href="/kurzy/aws.html" class="btn" style="margin: 10px">Amazon Web Services (AWS)</a> -->
 <a href="/kurzy/cloudflare.html" class="btn" style="margin: 10px">Cloudflare</a>
 <a href="/kurzy/git.html" class="btn" style="margin: 10px">Git</a>
-<a href="/kurzy/continues-integration.html" class="btn" style="margin: 10px">Continues Integration</a>
+<a href="/kurzy/gitlab-ci.html" class="btn" style="margin: 10px">Gitlab CI</a>
 <a href="/kurzy/docker.html" class="btn" style="margin: 10px">Docker</a>
 <a href="/kurzy/kvm-virtualizace.html" class="btn" style="margin: 10px">KVM Virtualizace</a>
 
