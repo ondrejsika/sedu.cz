@@ -11,7 +11,7 @@ SEDU je projekt, který si dal za cíl zjednodušit softwarovým firmám každod
 Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet focus v jádru Vašeho podnikání a vypustit z něj zbytečně opakující se činnost.
 
 ## Klienti
-
+{% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %}
 
 <div class="row">
 {% for reference in site.reference %}{% if reference.on_clients %}
@@ -24,8 +24,11 @@ Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet f
 
 ## Aktuálně vypsané termíny
 
-{% for event in site.event %}{% if event.is_actual %}- [__{{event.title}}__]({{event.url}}) ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}
+| Kurz | Termin | Misto | Cena |
+| --- | --- | --- |
+{% for event in site.event %}{% if event.is_actual %}| [__{{event.title}}__]({{event.url}}) | {% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %} | {{event.city}} | {{event.price}} CZK |
 {% endif %}{% endfor %}
+
 
 Na kurz se [registrujte zde](/registrace.html) nebo napiste na <info@sedu.cz>
 
