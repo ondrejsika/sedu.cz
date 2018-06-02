@@ -8,9 +8,9 @@ title: Termíny
 # Termíny kurzů
 
 
-| Kurz | Termin | Misto | Cena |
-| --- | --- | --- |
-{% for event in site.event %}{% if event.is_actual %}| [__{{event.title}}__]({{event.url}}) | {% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %} | {{event.city}} | {{event.price}} CZK |
+| Kurz | Termin | Misto | Cena | |
+| --- | --- | --- | --- |
+{% for event in site.event %}{% if event.is_actual %}| [__{{event.title}}__]({{event.url}}) | {% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %} | {{event.city}} | {{event.price}} CZK | [registrace]({{event.url}}#registrace) |
 {% endif %}{% endfor %}
 
 Na kurz se [registrujte zde](/registrace.html) nebo napiste na <info@sedu.cz>

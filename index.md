@@ -24,9 +24,9 @@ Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet f
 
 ## Aktuálně vypsané termíny
 
-| Kurz | Termin | Misto | Cena |
+| Kurz | Termin | Misto | Cena | |
 | --- | --- | --- |
-{% for event in site.event %}{% if event.is_actual %}| [__{{event.title}}__]({{event.url}}) | {% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %} | {{event.city}} | {{event.price}} CZK |
+{% for event in site.event %}{% if event.is_actual %}| [__{{event.title}}__]({{event.url}}) | {% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %} | {{event.city}} | {{event.price}} CZK | [registrace]({{event.url}}#registrace) |
 {% endif %}{% endfor %}
 
 

@@ -18,21 +18,30 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 
 {% if has_actual_event %}
 
-<ul>
-{% for event in site.event reversed %}
-    {% if event.is_actual and event.course contains page.course %}
-    <li><a href="{{event.url}}"><strong>{{event.title}}</strong></a> ({{event.for}}) - {{ event.date  | date: "%d. %m. %Y" }}, {{event.city}}</li>
-    {% endif %}
-{% endfor %}
-</ul>
+<table>
+    <tr>
+        <th>Kurz</th>
+        <th>Termin</th>
+        <th>Misto</th>
+        <th>Cena</th>
+        <th></th>
+    </tr>
+    {% for event in site.event reversed %}{% if event.is_actual and event.course contains page.course %}
+        <tr>
+            <td><a href="{{event.url}}">{{event.title}}</a></td>
+            <td>{% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %}</td>
+            <td>{{event.city}}</td>
+            <td>{{event.price}} CZK</td>
+            <td><a href="{{event.url}}#registrace">registrace</a></td>
+        </tr>
+    {% endif %}{% endfor %}
+</table>
 
 {% else %}
 
 <p>Kurz nemá vypsnaté termíny. V případě zájmu nás kontaktujte na emailu: <a href="mailto:info@sedu.cz">info@sedu.cz</a></p>
 
 {% endif %}
-
-<hr>
 
 {{ content }}
 
@@ -49,8 +58,91 @@ project_tagline: SEDU - Školení a konzultace Ondřeje Šiky
 
 <h2>Lektor</h2>
 
-<p>Všechna školení vedu osobně (Ondrej Sika), mám více než 7 let zkušeností s full stack developmentem a posledni 3 roky pracuji jako Software Engineer na <a href="https://slushpool.com">Slush Poolu</a>. Snažím se věci co nejvíce automatizovat, neztrácet čas ručním testováním nebo nasazováním. Chci co nejvíce času strávit přímo vývojem, což je čas který zákazník ocení a zaplatí.</p>
+<div class="row">
+    <div class="col-md-3">
+        <img src="/static/content/trainers/ondrejsika_200px.jpg">
+        <center><b>Ondrej Sika</b></center>
+    </div>
+    <div class="col-md-9">
+        <p>Všechna školení vedu osobně (Ondrej Sika), mám více než 7 let zkušeností s full stack developmentem a posledni 3 roky pracuji jako software engineer na <a href="https://slushpool.com">Slush Poolu</a>. snažím se věci co nejvíce automatizovat, neztrácet čas ručním testováním nebo nasazováním. chci co nejvíce času strávit přímo vývojem, což je čas který zákazník ocení a zaplatí.</p>
+    </div>
+</div>
 
+<div class="row" style="margin-top: 30px">
+    <div class="col-md-6">
+        <h2>Nezavazna poptavka</h2>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <form action="https://former.xsika.cz/submit/5/JAAxkitdMQgEMojJIMAhazKggqbraDfL/">
+          <input type="hidden" name="course" value="{{ page.title }}">
+          <input type="hidden" name="type" value="nezavazna poptavka">
+          <div class="form-group">
+            <label for="name">Jméno</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Jmeno">
+          </div>
+          <div class="form-group">
+            <label for="name">Společnost</label>
+            <input type="text" class="form-control" name="company" id="name" placeholder="Společnost">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email"  id="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefon</label>
+            <input type="tel" class="form-control" name="phone" id="exampleInputPassword1" placeholder="Telefon">
+          </div>
+          <div class="form-group">
+            <label for="message">Zpráva</label>
+            <textarea class="form-control" name="message" rows="3" placeholder="Zpráva"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6Ld1vw8UAAAAADl6EjzCljZcn69XsZ1dL_-mof5v"></div>
+          </div>
+          <button type="submit" class="btn-default">Registrovat</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <h2 id="registrace">Registrace na kurz</h2>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <form action="https://former.xsika.cz/submit/5/JAAxkitdMQgEMojJIMAhazKggqbraDfL/">
+          <input type="hidden" name="course" value="{{ page.title }}">
+          <input type="hidden" name="type" value="registrace">
+          <div class="form-group">
+            <label>Kurz</label>
+            <select name="event" class="form-control">
+              <option selected>Vyberte termin kurzu</option>
+                {% for event in site.event reversed %}{% if event.is_actual and event.course contains page.course %}
+                    <option value="{{ event.date | date: "%Y-%m-%d" }}">{{ event.date | date: "%d. %m. %Y" }}</option>
+                {% endif %}{% endfor %}
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="name">Jméno</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Jmeno">
+          </div>
+          <div class="form-group">
+            <label for="name">Společnost</label>
+            <input type="text" class="form-control" name="company" id="name" placeholder="Společnost">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email"  id="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefon</label>
+            <input type="tel" class="form-control" name="phone" id="exampleInputPassword1" placeholder="Telefon">
+          </div>
+          <div class="form-group">
+            <label for="message">Zpráva</label>
+            <textarea class="form-control" name="message" rows="3" placeholder="Zpráva"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6Ld1vw8UAAAAADl6EjzCljZcn69XsZ1dL_-mof5v"></div>
+          </div>
+          <button type="submit" class="btn-default">Registrovat</button>
+        </form>
+    </div>
+</div>
 
 {% assign has_references = false %}
 
