@@ -7,23 +7,28 @@ title: Kontakt
 
 # Kontakt
 
-Preferuji e-mailovou komunikaci  na <info@sedu.cz>
+Preferujeme e-mailovou komunikaci na <info@sedu.cz>
 
+<div class="row">
+<div class="col-md-4" markdown="1">
 
 ### Ondrej Sika
 
 školitel a konzultant
 
-- +420 773 452 376
-- <ondrej@sedu.cz>
-- [www.bysika.cz](https://bysika.cz)
++420 773 452 376
+<br><ondrej@sedu.cz>
+<br>[ondrej-sika.cz](https://ondrej-sika.cz)
 
-<!--
+</div>
+<div class="col-md-4" markdown="1">
 
-### Dominika Papp
+### Katerina Lipovska
 
 Asistentka
 
-- <dominika@sedu.cz>
+<katerina@sedu.cz>
 
--->
+</div>
+</div>
+
