@@ -1,6 +1,6 @@
 ---
 layout: event
-course: continues-integration
+course: gitlab-ci
 is_actual: false
 for: pro mírně a středně pokročilé
 title: Gitlab a Continues Integration
