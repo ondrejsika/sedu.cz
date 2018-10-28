@@ -23,11 +23,11 @@ Preferujeme e-mailovou komunikaci na <info@sedu.cz>
 </div>
 <div class="col-md-4" markdown="1">
 
-### Katerina Lipovska
+### Zuzana Jeschkeova
 
 Asistentka
 
-<katerina@sedu.cz>
+<zuzana@sedu.cz>
 
 </div>
 </div>
