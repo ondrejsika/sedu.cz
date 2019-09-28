@@ -3,7 +3,7 @@ layout: course
 title: Školení Terraform
 slug: terraform
 project_name: Terraform
-price: 6000
+price: 6 000
 course: terraform
 ---
 

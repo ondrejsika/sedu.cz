@@ -4,7 +4,7 @@ title: Školení Gitu
 slug: git
 course: git
 project_name: Git
-price: 3500
+price: 5 000
 ---
 
 Tento kurz je mým prvním a nejžádanějším kurzem, který školím. Na workshopu si vše prakticky vyzkoušíme a naučíme se používat Git při každodenní práci. Ukážeme si příklady z praxe a zaměříme se na vaše konkrétní problémy a potřeby.

@@ -3,7 +3,7 @@ layout: course
 title: Školení Kubernetes
 slug: kubernetes
 project_name: Kubernetes
-price: 8000
+price: 10 000
 course: kubernetes
 ---
 

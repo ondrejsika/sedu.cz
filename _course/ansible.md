@@ -3,7 +3,7 @@ layout: course
 title: Školení Ansible
 slug: ansible
 project_name: Ansible
-price: 8000
+price: 10 000
 course: ansible
 ---
 

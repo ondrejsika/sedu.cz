@@ -4,7 +4,7 @@ title: Školení Gitlab CI
 slug: gitlab-ci
 course: gitlab-ci
 project_name: Gitlab CI
-price: 4000
+price: 5 000
 ---
 
 ## Agenda

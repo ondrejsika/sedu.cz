@@ -4,7 +4,7 @@ title: Školení Cloudflare
 slug: cloudflare
 course: cloudflare
 project_name: Cloudflare
-price: 4000
+price: 5 000
 ---
 
 Chcete udělat něco pro své zákazníky a zároveň si zjednodušit život? Pak jsou služby [Cloudflare](https://cloudflare.com) práve pro Vás. Zajišťuji DDOS ochranu, CDN, HTTPS, DNS a mnoho dalšího. Zároveň můžete vše ovládat pomocí API a většině firem bude stačit jejich FREE plan.

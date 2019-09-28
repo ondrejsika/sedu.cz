@@ -3,7 +3,7 @@ layout: course
 title: Školení Docker
 slug: docker
 project_name: Docker
-price: 8000
+price: 10 000
 course: docker
 ---
 
