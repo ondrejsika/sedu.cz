@@ -1,9 +1,12 @@
 FROM ruby as build
 MAINTAINER Ondrej Sika <ondrej@ondrejsika.com>
-RUN gem install jekyll
+RUN gem install bundler
 WORKDIR /www
-COPY . /www
-RUN jekyll build
+COPY Gemfile .
+RUN bundler install
+COPY Gemfile.lock .
+COPY . .
+RUN ./build.sh
 
 FROM nginx:alpine
 MAINTAINER Ondrej Sika <ondrej@ondrejsika.com>
