@@ -10,6 +10,7 @@ title: Vsechny kurzy
 Vyberte si z naší široké nabídky kurzů
 
 - [Amazon Web Services (AWS)](aws.html) - spolehlivý cloud
+- [Azure](azure.html) - cloud of Microsoftu
 - [Ansible](ansible.html) - automatizujte pomoci Ansible
 - [Cloudflare](cloudflare.html) - chrání Váš web a mnoho dalšího
 - [Git](git.html) - univerzální verzovací system
