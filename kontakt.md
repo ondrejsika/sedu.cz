@@ -23,11 +23,20 @@ Preferujeme e-mailovou komunikaci na <info@sedu.cz>
 </div>
 <div class="col-md-4" markdown="1">
 
-### Zuzana Jeschkeova
+### Michael Kaplan
+
+školitel a konzultant
+
+<michael@sedu.cz>
+
+</div>
+<div class="col-md-4" markdown="1">
+
+### Katerina Svatkova
 
 Asistentka
 
-<zuzana@sedu.cz>
+<katerina@sedu.cz>
 
 </div>
 </div>
