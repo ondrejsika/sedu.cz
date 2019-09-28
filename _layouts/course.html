@@ -58,6 +58,17 @@ project_tagline: Sedu.cz - Školení a konzultace Ondřeje Šiky
 
 <h2>Váš lektor</h2>
 
+{% if page.lecturer == "michaelkaplan" %}
+<div class="row">
+    <div class="col-md-3">
+        <img src="https://www.fillmurray.com/200/200">
+    </div>
+    <div class="col-md-9">
+        <h3>Michael Kaplan</h3>
+        <p>DevOps engineer z Prahy</p>
+    </div>
+</div>
+{% else %}
 <div class="row">
     <div class="col-md-3">
         <img src="/static/content/trainers/ondrejsika_200px.jpg">
@@ -67,6 +78,8 @@ project_tagline: Sedu.cz - Školení a konzultace Ondřeje Šiky
         <p>Jsem freelance lektor a konzultant, převážne DevOps. Školení vedu osobně, mám více než 7 let zkušeností s full stack developmentem a DevOps. Poslední 2 roky pomáhám firmám jak zlepšit jejich DevOps procesy a doručovat software rychleji, jednodušeji a bez chyb.</p>
     </div>
 </div>
+{% endif %}
+
 
 <div class="row" style="margin-top: 30px">
     <div class="col-md-6">
