@@ -2,8 +2,8 @@ FROM ruby as build
 RUN gem install bundler
 WORKDIR /www
 COPY Gemfile .
-RUN bundler install
 COPY Gemfile.lock .
+RUN bundler install
 COPY . .
 RUN ./build.sh
 
