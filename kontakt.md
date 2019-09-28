@@ -19,6 +19,7 @@ Preferujeme e-mailovou komunikaci na <info@sedu.cz>
 +420 773 452 376
 <br><ondrej@sedu.cz>
 <br>[ondrej-sika.cz](https://ondrej-sika.cz)
+<br>[@ondrejsika](https://twitter.com/ondrejsika)
 
 </div>
 <div class="col-md-4" markdown="1">
@@ -37,6 +38,16 @@ Preferujeme e-mailovou komunikaci na <info@sedu.cz>
 Asistentka
 
 <katerina@sedu.cz>
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4" markdown="1">
+
+### Twitter
+
+[@seducz](https://twitter.com/seducz)
 
 </div>
 </div>
