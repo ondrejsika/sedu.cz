@@ -1,4 +1,3 @@
 #!/bin/sh
 
-jekyll serve
-
+bundler exec jekyll serve
