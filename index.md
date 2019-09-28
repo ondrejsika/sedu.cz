@@ -10,6 +10,22 @@ SEDU je projekt, který si dal za cíl zjednodušit softwarovým firmám každod
 
 Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet focus v jádru Vašeho podnikání a vypustit z něj zbytečně opakující se činnost.
 
+## Nejžádanější kurzy
+
+<div class="background">
+
+<!-- <a href="/kurzy/aws.html" class="btn">Amazon Web Services (AWS)</a> -->
+<a href="/kurzy/ansible.html" class="btn">Ansible</a>
+<a href="/kurzy/git.html" class="btn">Git</a>
+<a href="/kurzy/gitlab-ci.html" class="btn">Gitlab CI</a>
+<a href="/kurzy/docker.html" class="btn">Docker</a>
+<a href="/kurzy/kubernetes.html" class="btn">Kubernetes</a>
+<a href="/kurzy/terraform.html" class="btn">Terraform</a>
+
+</div>
+
+Všechny kuzry [zde](/kurzy)
+
 ## Klienti
 {% if event.date_str %}{{ event.date_str }}{% else %}{{ event.date | date: "%d. %m. %Y" }}{% endif %}
 
@@ -33,25 +49,6 @@ Věříme, že technologie a metodiky, které nabízíme Vám pomůžou držet f
 Na kurz se [registrujte zde](/registrace.html) nebo napiste na <info@sedu.cz>
 
 Všechny termíny [zde](/terminy)
-
-<!--
-- [__Workshop Gitu pro začátečníky__, 21. 6. 2017](/terminy/2017-06-21-workshop-gitu-pro-zacatecniky.html)
--->
-
-## Nejžádanější kurzy
-
-<div class="background" style="padding: 10px">
-
-<!-- <a href="/kurzy/aws.html" class="btn" style="margin: 10px">Amazon Web Services (AWS)</a> -->
-<a href="/kurzy/cloudflare.html" class="btn" style="margin: 10px">Cloudflare</a>
-<a href="/kurzy/git.html" class="btn" style="margin: 10px">Git</a>
-<a href="/kurzy/gitlab-ci.html" class="btn" style="margin: 10px">Gitlab CI</a>
-<a href="/kurzy/docker.html" class="btn" style="margin: 10px">Docker</a>
-<a href="/kurzy/kvm-virtualizace.html" class="btn" style="margin: 10px">KVM Virtualizace</a>
-
-</div>
-
-Všechny kuzry [zde](/kurzy)
 
 
 ## Kontakt
